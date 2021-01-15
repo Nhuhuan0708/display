@@ -1,0 +1,55 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 100%;
+    background-color: rgb(181, 116, 255);
+}
+
+.form-control{
+    border-radius: 16px;
+}
+.nav-item{
+    margin: 0px 15px;
+}
+#icavt{
+    width:100%;
+    border-radius: 50%;
+    float: right;
+    padding: 0px 0px;
+}
+.fa{
+    color: white;
+}
+.w3-bar-item{
+    width:100%;
+    display:block;
+    padding:8px 12px;
+    text-align:center;
+    border:none;
+    white-space:normal;
+    float:none;
+    outline:0
+}
+.w3-bar-item:hover{
+    background-color: rgb(91, 8, 245)!important;
+}
+.w3-xxlarge{
+    font-size:24px!important
+}
+.sidebar{
+    background-color:#6C63FF;
+    width:60px;
+    height: 100%;
+    position: fixed;
+}
+@media(max-width:576px){
+    .sidebar{
+        position: absolute;
+    }
+    
+}
+.navbar{
+    background-color:#6C63FF;
+}
