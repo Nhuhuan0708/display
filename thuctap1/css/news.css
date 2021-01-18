@@ -2,13 +2,11 @@ body{
     background-color: white!important;
 }
 .wrapper{
-    margin-left: 55px;
-    width: 100%;
+    margin-left:5%;
     height: 100%;
     position: relative;
 }
 .row-news{
-    position: fixed;
     left: 80px;
     width:95%;
     height : 90%;
@@ -55,7 +53,7 @@ body{
 .hightlight{
     margin-top: 20px;
     margin-right: 0!important;
-    width:90%;
+    width:100%;
 }
 #p-hightlight-1, #p-hightlight-video{
     margin-top:10px;

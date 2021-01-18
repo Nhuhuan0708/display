@@ -2,14 +2,13 @@ body{
     background-color: white!important;
 }
 .wrapper{
-    margin-left: 55px;
-    width: 100%;
+    margin-left:5%;
+    
     height: 100%;
     position: relative;
 }
 .row-homepage{
-    position: fixed;
-    left: 80px;
+   
     width:95%;
     height : 90%;
     margin-top: 7px;
@@ -85,12 +84,16 @@ body{
     font-size: 14px;
 }
 #book-now{
-    margin-left: 25%;
+    margin-left: 22%;
     color: white;
     border-radius: 24px;
     background-color:rgb(59, 72, 255);
     border: none;
     padding:2px 20px;
+}
+#book-now:focus{
+    border: 0;
+    outline: none;
 }
 .price-1:hover, .price-2:hover, .price-3:hover, .price-4:hover{
     transform: scale(1.2);
