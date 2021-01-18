@@ -2,7 +2,7 @@ body{
     background-color: white!important;
 }
 .wrapper{
-    background-color: rgb(181, 116, 255);
+    margin-left: 55px;
     width: 100%;
     height: 100%;
     position: relative;
@@ -87,4 +87,39 @@ body{
 }
 #img-ykien:hover, #img-cauhoi:hover{
     transform: scale(1.2);
+}
+@media(max-width:768px){
+    html{
+        position: static;
+    }
+    .wrapper{
+        margin: 0 0;
+    }
+    .header{
+        position: static;
+    }
+    .header-homepage{
+        display: none;
+    }
+    .item-1, .item-2, .item-3{
+        margin-top: 0;
+    }
+    .header{
+        width:100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .item-1, .item-2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #col-homepage-1, #col-homepage-2, #col-homepage-3{
+        margin-top: 5%;
+    }
+    #img-ykien, #img-cauhoi{
+        margin-left: 14%;
+    }
+    #p-ykien, #p-cauhoi{
+        margin-left: 30%;
+    }
 }

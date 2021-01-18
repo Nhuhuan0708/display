@@ -3,9 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <title>Chatting</title>
+        <title>News</title>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/news.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -56,55 +57,55 @@
               </nav>
                 </div>
               <div class="row row-content-news">
-               <div class="col-10">
+               <div class="col-sm-10">
                   <div class="row justify-content-start">
-                      <div class="col-4">
+                      <div class="col-sm-4">
                           <div class="news">
                               <img id="img-news" src="image/giaoducconcai.jpg" style="width:100%">
                           </div>
                       </div>
-                      <div class="col-4">
+                      <div class="col-sm-4">
                           <a id="a-news" href="#"><p id="p-news">Những câu nói đắt giá từ "Tiệc trăng máu" khiến ta suy ngẫm về hôn nhân</p></a>
                           <p id="date-news">29/10/2020</p>
                       </div>
                   </div>
                   <div class="row row-news-1">
-                    <div class="col-4 col-news">
+                    <div class="col-sm-4 col-news">
                       <img id="img-news-1" src="image/giaoducconcai.jpg" style="width:40%">
                       <a href="#" id="a-news-1"><p id="p-news-1">Khóa học hôn nhân gia đình "KIẾN TẠO HẠNH PHÚC"</p></a>
                       <p id="date-news-1">29/10/2020</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-news">
                       <img id="img-news-2" src="image/giaoducconcai.jpg" style="width:40%">
                       <a href="#" id="a-news-1"><p id="p-news-1">Thiết lập nề nếp gia đình</p></a>
                       <p id="date-news-1">29/10/2020</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-news">
                       <img id="img-news-2" src="image/giaoducconcai.jpg" style="width:40%">
                       <a href="#" id="a-news-1"><p id="p-news-1">Thiết lập nề nếp gia đình</p></a>
                       <p id="date-news-1">29/10/2020</p>
                     </div>
                   </div>
                   <div class="row row-news-2">
-                    <div class="col-4 col-news">
+                    <div class="col-sm-4 col-news">
                       <img id="img-news-1" src="image/giaoducconcai.jpg" style="width:40%">
                       <a href="#" id="a-news-1"><p id="p-news-1">Khóa học hôn nhân gia đình "KIẾN TẠO HẠNH PHÚC"</p></a>
                       <p id="date-news-1">29/10/2020</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-news">
                       <img id="img-news-2" src="image/giaoducconcai.jpg" style="width:40%">
                       <a href="#" id="a-news-1"><p id="p-news-1">Thiết lập nề nếp gia đình</p></a>
                       <p id="date-news-1">29/10/2020</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-4 col-news">
                       <img id="img-news-2" src="image/giaoducconcai.jpg" style="width:40%">
                       <a href="#" id="a-news-1"><p id="p-news-1">Thiết lập nề nếp gia đình</p></a>
                       <p id="date-news-1">29/10/2020</p>
                     </div>
                   </div>
                 </div>  
-                <div class="col-2">
-                    <div>
+                <div class="col-sm-2">
+                    <div id="search-news-1">
                       <input id="input-news" type="text" placeholder="">
                       <button class="btn-search-news">
                       <svg id="icon-search" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">

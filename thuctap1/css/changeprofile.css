@@ -1,5 +1,5 @@
 .wrapper-inner {
-    margin : 0 350px;
+    margin : 0 20%;
 }
 #td-profile{
     text-align: center;
@@ -15,7 +15,7 @@
     border-top: none;
 }
 #name, #fname, #location, #email, #phone, #old-password, #new-password{
-    width: 400px;
+    width: 90%;
     margin-top: 3px;
     margin-bottom: 10px;
     border-radius: 12px;
@@ -23,8 +23,11 @@
     background-color :rgb(238, 238, 238);
     border: 2px solid rgb(209, 208, 208);
 }
+#form-changeprofile{
+    width :100%;
+}
 #save{
-    margin-left: 300px;
+    margin-left: 70%;
     margin-top: 25px;
     margin-bottom: 20px;
     width: 100px;
@@ -81,4 +84,48 @@ body{
 }
 p#info-account{
     margin-top: 25px;
+}
+@media(max-width:992px){
+    html{
+        position: static;
+    }
+    .wrapper-inner{
+        margin: 0 0;
+    }
+    #col-changeprofile-1{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-top: 0;
+    }
+    #tb-profile{
+        margin-left: 15%;
+        padding-top: 0;
+    }
+    .avt{
+        max-width: 100%;
+        border-bottom: none;
+        border-right: none;
+    }
+    .profile{
+        border-right: none;
+    }
+    #save{
+        margin-left: 170px;
+
+    }
+    #name, #fname, #location, #email, #phone, #old-password, #new-password{
+        width: auto;
+    }
+
+}
+@media(max-width:480px){
+    #tb-profile{
+        margin-left: 19%;
+    }
+    #avatar{
+        width:200%;
+    }
+    .info-avt{
+        margin-top: 0px;
+    }
 }

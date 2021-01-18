@@ -53,3 +53,15 @@ body{
 .navbar{
     background-color:#6C63FF;
 }
+.navbar-ul-1{
+    flex-grow: 0!important;
+}
+#sidebar-1{
+    flex-direction: column!important;
+}
+@media(max-width:768px){
+    .form{
+        display: none;
+    }
+}
+

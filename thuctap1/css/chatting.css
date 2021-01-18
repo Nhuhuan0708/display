@@ -2,6 +2,7 @@ body{
     background-color: rgb(225, 201, 252)!important;
 }
 .wrapper{
+    margin-left: 55px;
     width: 100%;
     height: 100%;
     position: relative;
@@ -415,7 +416,44 @@ body{
     margin-bottom: 15px;
     background-color: #FDA0A0!important;
 }
-
+@media(max-width:768px){
+    #p-chat-1, .form-search, #nameuser, .col-chatting-3{
+        display: none;
+    }
+    .row-chatting{
+        position: static;
+        width :100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .wrapper{
+        margin-left: 0;
+    }
+    .col-chatting-1{
+        width:15%;
+    }
+    #user1{
+        width:100%;
+    }
+    .div-user{
+        margin-top: 0;
+    }
+    .div-user-1, .div-user-2{
+        padding-left: 0;
+    }
+    .col-chatting-2{
+        width:85%;
+    }
+    .message-content{
+        position: static;
+    }
+    #avt-info{
+        display : none;
+    }
+    #nameuser-info{
+        padding-left: 0;
+    }
+}
 
 
 

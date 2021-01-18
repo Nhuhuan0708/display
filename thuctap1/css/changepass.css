@@ -2,7 +2,7 @@ body{
     background-color: white!important;
 }
 .wrapper-inner {
-    margin : 0 350px;
+    margin : 0 20%;
    
     height: 100%;
 }
@@ -17,7 +17,7 @@ body{
     border-top: none;
 }
 #old-password, #new-password{
-    width: 400px;
+    width: 90%;
     margin-top: 3px;
     margin-bottom: 10px;
     border-radius: 12px;
@@ -130,4 +130,30 @@ button, input, optgroup, select, textarea {
     color: inherit;
     font: inherit;
     margin: 0;
+}
+@media(max-width:768px){
+    html{
+        position: static;
+    }
+    .wrapper-inner{
+        margin: 0 0;
+    }
+    .profile{
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-top: 0;
+        border-right: none;
+    }
+    #tb-profile{
+        margin-left: 15%;
+        padding-top: 0;
+    }
+    .avt{
+        max-width: 100%;
+        border-bottom: none;
+        border-right: none;
+    }
+    #old-password, #new-password{
+        width: 200px!important;
+    }
 }

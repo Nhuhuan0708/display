@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Chatting</title>
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="css/homepage1.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script language="javascript" src="js/homepage.js"></script>
     </head>
     <body>
@@ -18,7 +18,7 @@
         ?>
         <div class="wrapper">
             <div class="row row-homepage">
-                <div class="col-4">
+                <div class="col-sm-4">
                     <div class="reprodutive">
                         <img id="img-homepage2" src="image/37126.jpg" style="width :70%">
                     </div>
@@ -26,9 +26,9 @@
                         <button class="btn-reprodutive" type="button">Reprodutive</button>
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-sm-8">
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <div class="price-1">
                                 <div class="booknow-price-1">
                                     <img id="price" src="image/price.png" style="width :30%">
@@ -41,7 +41,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <div class="price-2">
                                 <div class="booknow-price-2">
                                     <img id="price" src="image/price.png" style="width :30%">
@@ -54,7 +54,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <div class="price-3">
                                 <div class="booknow-price-3">
                                     <img id="price" src="image/price.png" style="width :30%">
@@ -67,7 +67,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-sm-3">
                             <div class="price-4">
                                 <div class="booknow-price-4">
                                     <img id="price" src="image/price.png" style="width :30%">
